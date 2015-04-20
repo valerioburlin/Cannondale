@@ -1,0 +1,135 @@
+body {
+   margin: 0;
+   padding: 0;
+   background-color: #B8B8E6;
+}
+
+#header {
+   background-color: #00CC00;
+   text-transform: uppercase;
+   font-style: oblique;
+   padding: 1% 5%;	
+}
+
+h3 {
+   margin: 0;
+   padding: 0;
+   float: right;
+   font-size: 0.8em;
+   text-transform: none;
+}
+
+#menu {
+   background-color: #0033CC;
+   float: left;
+   width: 15%;
+   line-height: 2em;
+   height: 50em;
+}
+
+#menu ul {
+   padding-top: 3%;
+   list-style-type: none;
+}
+
+#menu li {
+   padding: 5% 0%;
+   color: #FFCC00;
+}
+
+#menu li a {
+   color: #FFFFFF;
+}
+
+h2 {
+   display: block;
+   text-align: center;
+   font-style: italic;
+}
+
+#content {
+   text-align: center;
+}
+
+table {
+   border-collapse: collapse;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 2%;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+tr {
+   margin: 0;
+   padding: 0;
+}
+
+th, td {
+   text-align: center;
+   padding: 0.3em;
+}
+
+.modifica {
+   width: 40%;
+   margin: 3%;
+   display: block;
+   float: left;
+}
+
+select {
+   width: 39%;
+}
+
+.modifica label {
+   float: left;
+   width: 40%;
+}
+
+#button {
+   margin: 3%;
+   float: left;
+}
+
+#button input {
+   width: 200px;
+}
+
+.info {
+   padding: 1%;
+   margin-left: 18%;
+}
+
+.tit, legend {
+   font-weight: bold;
+}
+
+#autenticazione {
+   float: left;
+   margin: 2% 10%;
+   line-height: 3em;
+}
+
+#ricerca {
+   float: left;
+   width: 80%;
+   margin: 1%;
+}
+
+.err_mex {
+   margin: 2%;
+   font-style: italic;
+} 
+
+p.descr {
+   display: block;
+   font-style: italic;
+}
+
+#footer {
+   clear: both;
+   height: 1em;
+   background-color: #00CC00;
+}
